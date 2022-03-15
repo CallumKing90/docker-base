@@ -1,0 +1,9 @@
+{
+  "name": "docker-dev-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose -f docker-compose.dev.yml up"
+  }
+}
